@@ -45,7 +45,7 @@ while True:
 def getSum(integerList):
     return sum(integerList)
 
-integerList = [1,3,8,9,14,31,55]
+integerList = [1, 3, 8, 9, 14, 31, 55]
 total = getSum(integerList)
 print(total)
 
