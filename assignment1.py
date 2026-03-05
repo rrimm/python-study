@@ -2,14 +2,12 @@
 # Exercise 1
 # Write a program that uses a while loop to print out all numbers divisible by three in the range of 1-1000.
 number = 0
-arr = []
 
 while number < 1000:
     number += 1
     if number % 3 == 0:
-        arr.append(number)
+        print(number)
 
-print(arr)
 
 # Exercise 2
 # Write a program that converts inches to centimeters until the user inputs a negative value. Then the program ends.
